@@ -11,6 +11,7 @@
 .stApp {
     margin: auto;
     font-family: 'Roboto', sans-serif;
+    text-emphasis-color: #00008B;
     overflow: auto;
     background-color: #E9A753;
     animation: gradient 15s ease infinite;
@@ -38,7 +39,23 @@
 }
   
 
+body {
+    color: #00008B;  /* Ensure body text is dark blue */
+}
 
+/* Headings in Dark Blue */
+h1, h2, h3, h4, h5, h6 {
+    padding-top: 0;
+    margin-top: 0;
+    color: #00008B;
+    font-weight: bold;
+}
+
+/* Sidebar Styling */
+.stSidebar {
+    background-color: rgba(233, 167, 83, 0.7);  /* Slightly transparent background */
+    color: #00008B;
+}
 
 
 
